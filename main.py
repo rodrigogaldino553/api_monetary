@@ -1,7 +1,6 @@
 import requests, time
 
-#cria um sistema q registra os valores de alta em um txt
-#cria um relatório e etc...
+
 def lines(how_much):
     print('='*how_much)
     
