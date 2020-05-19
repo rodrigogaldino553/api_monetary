@@ -23,10 +23,10 @@ def show_infos(coin, coin_name):
 
 while True:
     
-    print('Example: USD-BRL to dollars')
+    print('Example: USD-BRL to see dollar to real')
     coin_code = str(input('Type coin code: ')).strip().upper()
 
-    show_infos(get_info(coin_code), coin_code.split('-')[0])
+    show_infos(get_info(coin_code), coin_code)
    
     lines(36)
     
